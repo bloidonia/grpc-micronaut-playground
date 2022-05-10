@@ -1,0 +1,6 @@
+grpc:
+  channels:
+    router:
+      address: 'localhost:8082'
+      plaintext: true
+      max-retry-attempts: 10

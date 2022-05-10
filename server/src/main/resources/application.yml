@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: grpc
+netty:
+  default:
+    allocator:
+      max-order: 3
+grpc:
+  server:
+    port: 8082
+    keep-alive-time: 3h
+    max-inbound-message-size: 1024
+

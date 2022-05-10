@@ -1,0 +1,6 @@
+
+rootProject.name="grpc"
+
+include "client"
+include "server"
+include "shared"
